@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zielone trasy – Opole</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="map"></div>
+
+  <aside id="panel">
+    <h1>🌿 Zielona trasa</h1>
+    <p class="hint" id="hint">Kliknij na mapie punkt <b>startu</b>.</p>
+
+    <label for="green">Preferencja zieleni i ciszy: <b id="greenValue">80%</b></label>
+    <input type="range" id="green" min="0" max="100" value="80" />
+    <div class="scale"><span>najkrócej</span><span>najzieleniej</span></div>
+
+    <label class="check">
+      <input type="checkbox" id="showZones" checked /> Pokaż strefy (zieleń / hałas)
+    </label>
+
+    <button id="reset">Wyczyść punkty</button>
+
+    <div id="loading" hidden>Liczę trasę…</div>
+    <div id="error" hidden></div>
+
+    <div id="stats" hidden>
+      <table>
+        <thead><tr><th></th><th class="g">Zielona</th><th class="s">Najkrótsza</th></tr></thead>
+        <tbody>
+          <tr><td>Dystans</td><td id="gLen"></td><td id="sLen"></td></tr>
+          <tr><td>Czas (5 km/h)</td><td id="gTime"></td><td id="sTime"></td></tr>
+          <tr><td>Przez zieleń</td><td id="gGreen"></td><td id="sGreen"></td></tr>
+          <tr><td>Przy ruchliwych ulicach</td><td id="gNoise"></td><td id="sNoise"></td></tr>
+        </tbody>
+      </table>
+      <p id="detour"></p>
+    </div>
+
+    <div class="legend">
+      <span><i style="background:#1b9e3a"></i> trasa zielona</span>
+      <span><i style="background:#777"></i> najkrótsza</span>
+      <span><i style="background:#4caf50;opacity:.4"></i> strefa zieleni</span>
+      <span><i style="background:#e53935;opacity:.4"></i> strefa hałasu</span>
+    </div>
+  </aside>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
