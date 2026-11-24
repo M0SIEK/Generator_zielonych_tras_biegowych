@@ -1,6 +1,6 @@
 # 🌿 Generator zielonych tras spacerowych i biegowych (Opole)
 
-Aplikacja webowa działająca w trybie **offline**, służąca do wyznaczania zoptymalizowanych tras pieszych i biegowych na terenie Opola (w promieniu 5 km od centrum). System pozwala płynnie balansować między najkrótszym dystansem a maksymalizacją udziału terenów zielonych i unikaniem ruchliwych ulic.
+Aplikacja webowa działająca w trybie offline, służąca do wyznaczania zoptymalizowanych tras pieszych i biegowych na terenie Opola (w promieniu 5 km od centrum). System pozwala płynnie balansować między najkrótszym dystansem a maksymalizacją udziału terenów zielonych i unikaniem ruchliwych ulic.
 
 **Autorzy:** Patryk Moś, Jakub Neugebauer  
 **Przedmiot:** Analiza danych przestrzennych (Politechnika Opolska, 2026/2027)  
