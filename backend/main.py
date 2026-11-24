@@ -59,7 +59,7 @@ log = logging.getLogger("green-route-offline")
 STATE: dict = {}
 
 
-# ANALIZA PRZESTRZENNA OFFLINE 
+# ANALIZA PRZESTRZENNA
 def get_bounding_box(lat, lon, dist_m):
     # Przelicza środek i promień na Bounding Box w WGS84 do przycięcia mapy
     earth_r = 6371000
