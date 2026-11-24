@@ -12,7 +12,7 @@ Aplikacja webowa działająca w trybie offline, służąca do wyznaczania zoptym
 
 * **Backend:** Python, FastAPI, Uvicorn
 * **Analiza danych przestrzennych i grafowych:** `Pyrosm`, `OSMnx`, `GeoPandas`, `NetworkX`, `PyProj`
-* **Frontend:** HTML5, CSS3, JavaScript (Vanilla), `Leaflet.js`
+* **Frontend:** `HTML5`, `CSS3`, `JavaScript`, `Leaflet.js`
 
 ### Zasada działania
 1. Przy starcie serwera plik `.osm.pbf` jest przycinany do obszaru Opola, a sieć piesza jest rzutowana na lokalny metryczny układ współrzędnych (UTM).
