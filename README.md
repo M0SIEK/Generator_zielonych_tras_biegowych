@@ -10,7 +10,7 @@ Aplikacja webowa działająca w trybie offline, służąca do wyznaczania zoptym
 
 ## 🛠️ Technologie i architektura
 
-* **Backend:** Python, FastAPI, Uvicorn
+* **Backend:** `Python`, `FastAPI`, `Uvicorn`
 * **Analiza danych przestrzennych i grafowych:** `Pyrosm`, `OSMnx`, `GeoPandas`, `NetworkX`, `PyProj`
 * **Frontend:** `HTML5`, `CSS3`, `JavaScript`, `Leaflet.js`
 
